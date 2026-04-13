@@ -22,10 +22,11 @@ int main()
             }
             else if (j == 1 && 3 < i && i < 7)
             {
-
                 batalha[i][j] = 3;
             }
-            else
+            else if(i==j && (i>5 && i<9) || (i+j==9) && (i>5 && i<9) ){
+                batalha[i][j] = 3;
+            }else
             {
                 batalha[i][j] = 0;
             }
