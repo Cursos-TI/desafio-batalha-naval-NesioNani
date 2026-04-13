@@ -3,17 +3,8 @@
 int main()
 {
     int batalha[10][10];
-    // preencher a matriz batalha com zeros
-    for (int i = 0; i < 10; i++)
-    {
-
-        for (int j = 0; j < 10; j++)
-        {
-            batalha[i][j] = 0;
-        }
-    }
-
     // acrescentar dois navios com numero 3 horizontal e vertical
+    // e preencher as demais casas com sero
     printf("\n***** impressao com os dois navios ****\n");
     printf("    A B C D E F G H I J\n"); // cabecalho
     for (int i = 0; i < 10; i++)
